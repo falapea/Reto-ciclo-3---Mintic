@@ -1,3 +1,19 @@
-body {
-background-color: aquamarine;
+:root{
+    --cafe_1:#EDEDE9 ;
+    --Cafe_2:#F5EBE0 ;
+    --cafe_3:#E3D5CA ; 
+    --cafe_4:#D6CCC2 ; 
+    --cafe_5:#D5BDAF ; 
+    --fuente:'Quicksand', sans-serif;
+
+} 
+html{
+    box-sizing: border-box;
 }
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{ 
+font-family: var(--fuente);
+}
+
